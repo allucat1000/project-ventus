@@ -3,6 +3,6 @@ function buttonClick(){
     Clicks += 1
     document.getElementById("count").innerHTML = ['Clicks:',Clicks].join(' ');
 }
-function ventusAPI(p1, p2) {
-    console.log(['VentusAPI ', p1, '(', p2, ')'].join(''))
+function ventusAPI(p1, p2, p3) {
+    console.log(['VentusAPI ', p1, '(', p2, p3, ')'].join(''))
 }
