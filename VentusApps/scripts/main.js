@@ -1,3 +1,5 @@
+console.log('The app has been loaded. This is just here to say where main.js has loaded')
+console.log(window.parent.console.log)
 let Clicks = 0
 function buttonClick(){
     Clicks += 1
