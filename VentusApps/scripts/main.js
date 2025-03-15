@@ -4,5 +4,5 @@ function buttonClick(){
     document.getElementById("count").innerHTML = ['Clicks:',Clicks].join(' ');
 }
 function ventusAPI(p1, p2, p3) {
-    console.log(['VentusAPI ', p1, '(', p2, p3, ')'].join(''))
+    console.log(['VentusAPI ', p1, '(', p2, ' ', p3, ')'].join(''))
 }
